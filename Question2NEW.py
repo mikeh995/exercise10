@@ -1,3 +1,4 @@
+
 supplied_pin = None
 tries = 0
 
@@ -6,7 +7,7 @@ if firstpin == "1234":
    tries += 1
    print("")
    print("PIN Attempts:", tries)
-   exit("@@@@   WELCOME   @@@@@")
+   exit("WELCOME")
 else:
    tries +=1
    print("")
@@ -19,5 +20,4 @@ while supplied_pin != "1234":
    supplied_pin = input("Enter Your Pin:")
    print("")
    print("PIN Attempts:", tries)
-exit("@@@@@  WELCOME  @@@@@")
-#12
+exit("WELCOME")
