@@ -8,7 +8,7 @@ if firstpin == "1234":
     tries += 1
     print("")
     print("PIN Attempts:", tries)
-    exit("        ***WELCOME***        ")
+    exit("        ***WELCOME*** Your Balance is £1000000        ")
 else:
     tries += 1
     print("")
@@ -22,4 +22,4 @@ while supplied_pin != "1234":
     print("")
     print("PIN Attempts:", tries)
 
-exit("        ****WELCOME****        ")
+exit("        ***WELCOME*** Your Balance is £1000000       ")
