@@ -13,7 +13,7 @@ else:
     hdir = os.environ['HOME']
 
 # The pattern is using the home directory and the * symbol to indicate we want all files in the home directory
-pattern = os.path.join(hdir, '*')
+pattern = os.path.join(hdir, '*.html')
 
 # list of filenames
 thelist = (glob.glob(pattern))
